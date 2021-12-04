@@ -1,0 +1,11 @@
+PROGRAM test4
+
+DECLARE
+    INTEGER x #This is a comment
+    INTEGER y
+BEGIN
+    SET x := 4
+    SET y := 12
+    SET z := y-x
+    PRINT z
+END

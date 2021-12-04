@@ -1,0 +1,12 @@
+PROGRAM test1
+
+DECLARE
+    INTEGER a
+    INTEGER b
+    INTEGER c
+BEGIN
+    SET a := 20
+    SET b := 1
+    SET c := a *
+    PRINT c;
+END

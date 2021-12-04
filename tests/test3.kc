@@ -1,0 +1,10 @@
+PROGRAM test3
+DECLARE
+    STRING name
+    INTEGER age
+BEGIN
+    READ name
+    READ age
+    PRINT name
+    PRINT age
+END

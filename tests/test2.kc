@@ -1,0 +1,12 @@
+PROGRAM test2
+
+DECLARE
+    INTEGER a
+    INTEGER b
+BEGIN
+    READ a
+    READ b
+    IF a<>b THEN PRINT "They are not equal"
+    ELSE PRINT "They are equal"
+    ENDIF
+END
