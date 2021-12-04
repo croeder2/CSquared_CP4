@@ -1,4 +1,3 @@
-# KnightCodeSkeleton
+In this project, our group (CSquared - Claire Roeder and Cameron Herbert) created a compiler that works with the language KnightCode. Four java files were created -- kcc, kcListener, Value, and Utilities. The kcListener was created by following the BNF grammar provided and used KnightCodeBaseListener as well as ASM. The kcc.java file acts as the main application that compiles a given .kc file and produces a corresponding output file. The Value.java class was created to make storing values easier and each value object has a declareType (STRING OR INTEGER), a value, and a name. These all correspond with how variables are declared in KnightCode. The Utilities file is used for the bytearray.
 
-This project encapsulates the directory structure required for the final project in CS322. Additionally, it contains an ant build.xml file you can use to buid/compile/clean your project if you wish. Refer to the build.xml file for the build/clean targets.
-
+Directions: java kcc tests/[program].kc output/[Program]
